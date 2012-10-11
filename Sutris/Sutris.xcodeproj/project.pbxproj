@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEE39EE316278BF5000FAF65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE39EE216278BF5000FAF65 /* UIKit.framework */; };
+		BEE39EE516278BF5000FAF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE39EE416278BF5000FAF65 /* Foundation.framework */; };
+		BEE39EE716278BF5000FAF65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE39EE616278BF5000FAF65 /* CoreGraphics.framework */; };
+		BEE39EED16278BF5000FAF65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE39EEB16278BF5000FAF65 /* InfoPlist.strings */; };
+		BEE39EEF16278BF5000FAF65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39EEE16278BF5000FAF65 /* main.m */; };
+		BEE39EF316278BF5000FAF65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39EF216278BF5000FAF65 /* AppDelegate.m */; };
+		BEE39F0416278BF5000FAF65 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE39F0316278BF5000FAF65 /* SenTestingKit.framework */; };
+		BEE39F0516278BF5000FAF65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE39EE216278BF5000FAF65 /* UIKit.framework */; };
+		BEE39F0616278BF5000FAF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE39EE416278BF5000FAF65 /* Foundation.framework */; };
+		BEE39F0E16278BF5000FAF65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F0C16278BF5000FAF65 /* InfoPlist.strings */; };
+		BEE39F1116278BF5000FAF65 /* SutrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F1016278BF5000FAF65 /* SutrisTests.m */; };
+		BEE39F2B16278CDE000FAF65 /* SudokuCell10.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2016278CDE000FAF65 /* SudokuCell10.png */; };
+		BEE39F2C16278CDE000FAF65 /* SudokuCell2.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2116278CDE000FAF65 /* SudokuCell2.png */; };
+		BEE39F2D16278CDE000FAF65 /* SudokuCell4.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2216278CDE000FAF65 /* SudokuCell4.png */; };
+		BEE39F2E16278CDE000FAF65 /* SudokuCell5.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2316278CDE000FAF65 /* SudokuCell5.png */; };
+		BEE39F2F16278CDE000FAF65 /* SudokuCell6.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2416278CDE000FAF65 /* SudokuCell6.png */; };
+		BEE39F3016278CDE000FAF65 /* SudokuCell7.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2516278CDE000FAF65 /* SudokuCell7.png */; };
+		BEE39F3116278CDE000FAF65 /* SudokuCell8.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2616278CDE000FAF65 /* SudokuCell8.png */; };
+		BEE39F3216278CDE000FAF65 /* SudokuCell9.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2716278CDE000FAF65 /* SudokuCell9.png */; };
+		BEE39F3316278CDE000FAF65 /* SudokuCell3.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2816278CDE000FAF65 /* SudokuCell3.png */; };
+		BEE39F3416278CDE000FAF65 /* SudokuCell.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2916278CDE000FAF65 /* SudokuCell.png */; };
+		BEE39F3516278CDE000FAF65 /* SutrisBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F2A16278CDE000FAF65 /* SutrisBoard.png */; };
+		BEE39F3F16278CF7000FAF65 /* SutrisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F3816278CF7000FAF65 /* SutrisViewController.m */; };
+		BEE39F4016278CF7000FAF65 /* SutrisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F3A16278CF7000FAF65 /* SutrisModel.m */; };
+		BEE39F4116278CF7000FAF65 /* BoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F3C16278CF7000FAF65 /* BoardCell.m */; };
+		BEE39F4216278CF7000FAF65 /* SudokuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F3E16278CF7000FAF65 /* SudokuCell.m */; };
+		BEE39F4516278D0B000FAF65 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F4316278D0B000FAF65 /* MainStoryboard_iPhone.storyboard */; };
+		BEE39F4616278D0B000FAF65 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE39F4416278D0B000FAF65 /* MainStoryboard_iPad.storyboard */; };
+		BEE39F4716278DEF000FAF65 /* SutrisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F3A16278CF7000FAF65 /* SutrisModel.m */; };
+		BEE39F4816278DF1000FAF65 /* SutrisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F3816278CF7000FAF65 /* SutrisViewController.m */; };
+		BEE39F4916278DF8000FAF65 /* BoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F3C16278CF7000FAF65 /* BoardCell.m */; };
+		BEE39F4A16278DFA000FAF65 /* SudokuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE39F3E16278CF7000FAF65 /* SudokuCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEE39F0716278BF5000FAF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE39ED516278BF5000FAF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE39EDD16278BF5000FAF65;
+			remoteInfo = Sutris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEE39EDE16278BF5000FAF65 /* Sutris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sutris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE39EE216278BF5000FAF65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEE39EE416278BF5000FAF65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEE39EE616278BF5000FAF65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEE39EEA16278BF5000FAF65 /* Sutris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sutris-Info.plist"; sourceTree = "<group>"; };
+		BEE39EEC16278BF5000FAF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE39EEE16278BF5000FAF65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEE39EF016278BF5000FAF65 /* Sutris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sutris-Prefix.pch"; sourceTree = "<group>"; };
+		BEE39EF116278BF5000FAF65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEE39EF216278BF5000FAF65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEE39F0216278BF5000FAF65 /* SutrisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutrisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE39F0316278BF5000FAF65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEE39F0B16278BF5000FAF65 /* SutrisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SutrisTests-Info.plist"; sourceTree = "<group>"; };
+		BEE39F0D16278BF5000FAF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE39F0F16278BF5000FAF65 /* SutrisTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SutrisTests.h; sourceTree = "<group>"; };
+		BEE39F1016278BF5000FAF65 /* SutrisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SutrisTests.m; sourceTree = "<group>"; };
+		BEE39F2016278CDE000FAF65 /* SudokuCell10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell10.png; sourceTree = "<group>"; };
+		BEE39F2116278CDE000FAF65 /* SudokuCell2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell2.png; sourceTree = "<group>"; };
+		BEE39F2216278CDE000FAF65 /* SudokuCell4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell4.png; sourceTree = "<group>"; };
+		BEE39F2316278CDE000FAF65 /* SudokuCell5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell5.png; sourceTree = "<group>"; };
+		BEE39F2416278CDE000FAF65 /* SudokuCell6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell6.png; sourceTree = "<group>"; };
+		BEE39F2516278CDE000FAF65 /* SudokuCell7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell7.png; sourceTree = "<group>"; };
+		BEE39F2616278CDE000FAF65 /* SudokuCell8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell8.png; sourceTree = "<group>"; };
+		BEE39F2716278CDE000FAF65 /* SudokuCell9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell9.png; sourceTree = "<group>"; };
+		BEE39F2816278CDE000FAF65 /* SudokuCell3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell3.png; sourceTree = "<group>"; };
+		BEE39F2916278CDE000FAF65 /* SudokuCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SudokuCell.png; sourceTree = "<group>"; };
+		BEE39F2A16278CDE000FAF65 /* SutrisBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SutrisBoard.png; sourceTree = "<group>"; };
+		BEE39F3716278CF7000FAF65 /* SutrisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SutrisViewController.h; sourceTree = "<group>"; };
+		BEE39F3816278CF7000FAF65 /* SutrisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SutrisViewController.m; sourceTree = "<group>"; };
+		BEE39F3916278CF7000FAF65 /* SutrisModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SutrisModel.h; sourceTree = "<group>"; };
+		BEE39F3A16278CF7000FAF65 /* SutrisModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SutrisModel.m; sourceTree = "<group>"; };
+		BEE39F3B16278CF7000FAF65 /* BoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardCell.h; sourceTree = "<group>"; };
+		BEE39F3C16278CF7000FAF65 /* BoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardCell.m; sourceTree = "<group>"; };
+		BEE39F3D16278CF7000FAF65 /* SudokuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudokuCell.h; sourceTree = "<group>"; };
+		BEE39F3E16278CF7000FAF65 /* SudokuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudokuCell.m; sourceTree = "<group>"; };
+		BEE39F4316278D0B000FAF65 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BEE39F4416278D0B000FAF65 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE39EDB16278BF5000FAF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE39EE316278BF5000FAF65 /* UIKit.framework in Frameworks */,
+				BEE39EE516278BF5000FAF65 /* Foundation.framework in Frameworks */,
+				BEE39EE716278BF5000FAF65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE39EFE16278BF5000FAF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE39F0416278BF5000FAF65 /* SenTestingKit.framework in Frameworks */,
+				BEE39F0516278BF5000FAF65 /* UIKit.framework in Frameworks */,
+				BEE39F0616278BF5000FAF65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE39ED316278BF5000FAF65 = {
+			isa = PBXGroup;
+			children = (
+				BEE39EE816278BF5000FAF65 /* Sutris */,
+				BEE39F0916278BF5000FAF65 /* SutrisTests */,
+				BEE39EE116278BF5000FAF65 /* Frameworks */,
+				BEE39EDF16278BF5000FAF65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE39EDF16278BF5000FAF65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39EDE16278BF5000FAF65 /* Sutris.app */,
+				BEE39F0216278BF5000FAF65 /* SutrisTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE39EE116278BF5000FAF65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39EE216278BF5000FAF65 /* UIKit.framework */,
+				BEE39EE416278BF5000FAF65 /* Foundation.framework */,
+				BEE39EE616278BF5000FAF65 /* CoreGraphics.framework */,
+				BEE39F0316278BF5000FAF65 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE39EE816278BF5000FAF65 /* Sutris */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39F3616278CEC000FAF65 /* Sutris Game */,
+				BEE39F1E16278CC4000FAF65 /* Views/Controllers */,
+				BEE39EF116278BF5000FAF65 /* AppDelegate.h */,
+				BEE39EF216278BF5000FAF65 /* AppDelegate.m */,
+				BEE39EE916278BF5000FAF65 /* Supporting Files */,
+			);
+			path = Sutris;
+			sourceTree = "<group>";
+		};
+		BEE39EE916278BF5000FAF65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39F1F16278CCA000FAF65 /* Images */,
+				BEE39EEA16278BF5000FAF65 /* Sutris-Info.plist */,
+				BEE39EEB16278BF5000FAF65 /* InfoPlist.strings */,
+				BEE39EEE16278BF5000FAF65 /* main.m */,
+				BEE39EF016278BF5000FAF65 /* Sutris-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE39F0916278BF5000FAF65 /* SutrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39F0F16278BF5000FAF65 /* SutrisTests.h */,
+				BEE39F1016278BF5000FAF65 /* SutrisTests.m */,
+				BEE39F0A16278BF5000FAF65 /* Supporting Files */,
+			);
+			path = SutrisTests;
+			sourceTree = "<group>";
+		};
+		BEE39F0A16278BF5000FAF65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39F0B16278BF5000FAF65 /* SutrisTests-Info.plist */,
+				BEE39F0C16278BF5000FAF65 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE39F1E16278CC4000FAF65 /* Views/Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39F4316278D0B000FAF65 /* MainStoryboard_iPhone.storyboard */,
+				BEE39F4416278D0B000FAF65 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Views/Controllers;
+			sourceTree = "<group>";
+		};
+		BEE39F1F16278CCA000FAF65 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39F2016278CDE000FAF65 /* SudokuCell10.png */,
+				BEE39F2116278CDE000FAF65 /* SudokuCell2.png */,
+				BEE39F2216278CDE000FAF65 /* SudokuCell4.png */,
+				BEE39F2316278CDE000FAF65 /* SudokuCell5.png */,
+				BEE39F2416278CDE000FAF65 /* SudokuCell6.png */,
+				BEE39F2516278CDE000FAF65 /* SudokuCell7.png */,
+				BEE39F2616278CDE000FAF65 /* SudokuCell8.png */,
+				BEE39F2716278CDE000FAF65 /* SudokuCell9.png */,
+				BEE39F2816278CDE000FAF65 /* SudokuCell3.png */,
+				BEE39F2916278CDE000FAF65 /* SudokuCell.png */,
+				BEE39F2A16278CDE000FAF65 /* SutrisBoard.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BEE39F3616278CEC000FAF65 /* Sutris Game */ = {
+			isa = PBXGroup;
+			children = (
+				BEE39F3716278CF7000FAF65 /* SutrisViewController.h */,
+				BEE39F3816278CF7000FAF65 /* SutrisViewController.m */,
+				BEE39F3916278CF7000FAF65 /* SutrisModel.h */,
+				BEE39F3A16278CF7000FAF65 /* SutrisModel.m */,
+				BEE39F3B16278CF7000FAF65 /* BoardCell.h */,
+				BEE39F3C16278CF7000FAF65 /* BoardCell.m */,
+				BEE39F3D16278CF7000FAF65 /* SudokuCell.h */,
+				BEE39F3E16278CF7000FAF65 /* SudokuCell.m */,
+			);
+			name = "Sutris Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE39EDD16278BF5000FAF65 /* Sutris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE39F1416278BF5000FAF65 /* Build configuration list for PBXNativeTarget "Sutris" */;
+			buildPhases = (
+				BEE39EDA16278BF5000FAF65 /* Sources */,
+				BEE39EDB16278BF5000FAF65 /* Frameworks */,
+				BEE39EDC16278BF5000FAF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sutris;
+			productName = Sutris;
+			productReference = BEE39EDE16278BF5000FAF65 /* Sutris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE39F0116278BF5000FAF65 /* SutrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE39F1716278BF5000FAF65 /* Build configuration list for PBXNativeTarget "SutrisTests" */;
+			buildPhases = (
+				BEE39EFD16278BF5000FAF65 /* Sources */,
+				BEE39EFE16278BF5000FAF65 /* Frameworks */,
+				BEE39EFF16278BF5000FAF65 /* Resources */,
+				BEE39F0016278BF5000FAF65 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE39F0816278BF5000FAF65 /* PBXTargetDependency */,
+			);
+			name = SutrisTests;
+			productName = SutrisTests;
+			productReference = BEE39F0216278BF5000FAF65 /* SutrisTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE39ED516278BF5000FAF65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "William Mecklenburg";
+			};
+			buildConfigurationList = BEE39ED816278BF5000FAF65 /* Build configuration list for PBXProject "Sutris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEE39ED316278BF5000FAF65;
+			productRefGroup = BEE39EDF16278BF5000FAF65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE39EDD16278BF5000FAF65 /* Sutris */,
+				BEE39F0116278BF5000FAF65 /* SutrisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE39EDC16278BF5000FAF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE39EED16278BF5000FAF65 /* InfoPlist.strings in Resources */,
+				BEE39F2B16278CDE000FAF65 /* SudokuCell10.png in Resources */,
+				BEE39F2C16278CDE000FAF65 /* SudokuCell2.png in Resources */,
+				BEE39F2D16278CDE000FAF65 /* SudokuCell4.png in Resources */,
+				BEE39F2E16278CDE000FAF65 /* SudokuCell5.png in Resources */,
+				BEE39F2F16278CDE000FAF65 /* SudokuCell6.png in Resources */,
+				BEE39F3016278CDE000FAF65 /* SudokuCell7.png in Resources */,
+				BEE39F3116278CDE000FAF65 /* SudokuCell8.png in Resources */,
+				BEE39F3216278CDE000FAF65 /* SudokuCell9.png in Resources */,
+				BEE39F3316278CDE000FAF65 /* SudokuCell3.png in Resources */,
+				BEE39F3416278CDE000FAF65 /* SudokuCell.png in Resources */,
+				BEE39F3516278CDE000FAF65 /* SutrisBoard.png in Resources */,
+				BEE39F4516278D0B000FAF65 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BEE39F4616278D0B000FAF65 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE39EFF16278BF5000FAF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE39F0E16278BF5000FAF65 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEE39F0016278BF5000FAF65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE39EDA16278BF5000FAF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE39F4816278DF1000FAF65 /* SutrisViewController.m in Sources */,
+				BEE39EEF16278BF5000FAF65 /* main.m in Sources */,
+				BEE39F4916278DF8000FAF65 /* BoardCell.m in Sources */,
+				BEE39EF316278BF5000FAF65 /* AppDelegate.m in Sources */,
+				BEE39F4A16278DFA000FAF65 /* SudokuCell.m in Sources */,
+				BEE39F4716278DEF000FAF65 /* SutrisModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE39EFD16278BF5000FAF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE39F1116278BF5000FAF65 /* SutrisTests.m in Sources */,
+				BEE39F3F16278CF7000FAF65 /* SutrisViewController.m in Sources */,
+				BEE39F4016278CF7000FAF65 /* SutrisModel.m in Sources */,
+				BEE39F4116278CF7000FAF65 /* BoardCell.m in Sources */,
+				BEE39F4216278CF7000FAF65 /* SudokuCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEE39F0816278BF5000FAF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE39EDD16278BF5000FAF65 /* Sutris */;
+			targetProxy = BEE39F0716278BF5000FAF65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEE39EEB16278BF5000FAF65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE39EEC16278BF5000FAF65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEE39F0C16278BF5000FAF65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE39F0D16278BF5000FAF65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE39F1216278BF5000FAF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEE39F1316278BF5000FAF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE39F1516278BF5000FAF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sutris/Sutris-Prefix.pch";
+				INFOPLIST_FILE = "Sutris/Sutris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEE39F1616278BF5000FAF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sutris/Sutris-Prefix.pch";
+				INFOPLIST_FILE = "Sutris/Sutris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BEE39F1816278BF5000FAF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sutris.app/Sutris";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sutris/Sutris-Prefix.pch";
+				INFOPLIST_FILE = "SutrisTests/SutrisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BEE39F1916278BF5000FAF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sutris.app/Sutris";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sutris/Sutris-Prefix.pch";
+				INFOPLIST_FILE = "SutrisTests/SutrisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE39ED816278BF5000FAF65 /* Build configuration list for PBXProject "Sutris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE39F1216278BF5000FAF65 /* Debug */,
+				BEE39F1316278BF5000FAF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE39F1416278BF5000FAF65 /* Build configuration list for PBXNativeTarget "Sutris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE39F1516278BF5000FAF65 /* Debug */,
+				BEE39F1616278BF5000FAF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEE39F1716278BF5000FAF65 /* Build configuration list for PBXNativeTarget "SutrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE39F1816278BF5000FAF65 /* Debug */,
+				BEE39F1916278BF5000FAF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE39ED516278BF5000FAF65 /* Project object */;
+}
